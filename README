@@ -1,4 +1,4 @@
-Explanation about the exercise:
+Explanations:
 
 I chose to explicitly default all the big five class functions
 (destructor, copy ctr., move ctr., copy assignment, and move assignment)
@@ -10,12 +10,3 @@ I chose to implement the drawing of a Fractal ASCII Art in the following way:
 once the method draw() is called on a Fractal instance, a 2D array of characters is allocated
 (and pointed to by a local pointer variable) and passed by reference to the helper methods
 which build, print and delete it.
-
-
-//-- Files --//
-
-1.Fractal.h - class Fractal and its sub-classes Carpet, Sieve, and Dust are defined here.
-
-2.Fractal.cpp - class Fractal and its sub-classes Carpet, Sieve, and Dust are implemented here.
-
-3.FractalDrawer.cpp - the main module of the program.
